@@ -1,0 +1,156 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+#header p {
+    text-color: darkcyan;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 5px;
+    margin: 0;
+    font-size: 30px;
+}
+#header img {
+    display: block;
+    width: 80px;
+    height: 80px;
+    margin: auto;
+}
+body {
+    font-family: handlee, cursive, Arial;
+    font-size: 13pt;
+    background-color:oldlace;
+    background-size: cover;
+    background-position: center;
+    padding: 10px;
+    margin: 0;
+}
+  @media (min-width: 500px) {
+    h2::before {
+      content: "Welcome To My Blog Page!";
+    }
+  }
+  @media (max-width: 499px) {
+    h2::before {
+      content: "Welcome!";
+    }
+  }
+  h2 {
+    text-align: center;
+  }
+.image-block {
+    border: 3px solid white;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.img {
+  height: 90%;
+  width: 90%;
+  margin-left: 7px;
+}
+h1, h5 {
+    font-size: 15pt;
+    color: darkcyan;
+    text-align: center;
+    padding: 18px 0 18px 0;
+    margin: 0 0 10px 0;
+}
+h1 span, h5 span {
+    border: 4px dotted #20bcd5;
+    padding: 10px;
+}
+p {
+    margin: 0;
+    padding: 0;
+ }
+.section, .Activities, .Recommendation {
+    background-color: ghostwhite;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+table {
+    width: auto;
+    font-size: 11pt;
+}
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    table-layout: fixed;
+}
+.selected {
+    font-weight: bold;
+    color: Black;
+}
+.container [class^=col-] {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #eee;
+    background-color: ghostwhite;
+    border: 1px solid #ddd;
+    border: 1px solid rgba(86,61,124,.2);
+}
+.row {
+    margin: 5px;
+}
+.copyright {
+    font-size: 8pt;
+    text-align: right;
+    padding-bottom: 10px;
+    color: grey;
+}
+form {
+    text-align: center;
+    margin-top: 0;
+}
+.submit {
+    background-color: #3fb6b2;
+    padding: 12px 45px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    margin: 0;
+    font-weight: bold;
+}
+.submit:hover {
+    background-color: #43a09d;
+}
+textarea {
+    height: 100px;
+}
+input, textarea {
+    margin-bottom: 10px;
+    font-size: 11pt;
+    padding: 15px 10px 10px;
+    border: 1px solid #cecece;
+    background-color: #efefef;
+    color: #787575;
+    border-radius: 5px;
+    width: 70%;
+    outline: none;
+}
+#contacts img {
+    height: 50px;
+    width: 50px;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+#contacts a {
+    text-decoration: none;
+}
+#contacts img:hover {
+    opacity: 0.8;
+}
+#contacts {
+    text-align: center;
+}
+ .back {
+   text-align: center;
+    font-size: 10pt;
+    padding-bottom: 10px;
+    color: grey;
+}
