@@ -9,3 +9,4 @@
  Contact.html file contain a form to send a message to me and also social media handle to contact me.
  Style.css is my stylesheet file
  Other file attached are Inheritance.scss, Variables.scss and Inheritance.scss. files also attached are the css converted version of Inheritance.scss, Variables.scss and Inheritance.scss respectively and also there source file with file extension .css.map. Which are all used to style my webpage.
+ The images attached are linked to view on my webpage.
